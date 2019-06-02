@@ -23,8 +23,14 @@ $(".test").on("mouseleave", (event) => {
   $(event.target).siblings().animate({ height: "100px"})
 })
 
-// $(".test").on("click", (event) => {
-//   $(event.target).siblings().animate({ height: "380px"})
-//   console.log(($(event.target).siblings().children("h2"))[0].innerText)
-// })
+$(".menu-icon").on("click", (e) => {
+  $(".dropdown").fadeIn("slow")
+})
+
+$(".closeIcon").on("click", (event) => {
+  $(".dropdown").fadeOut("slow")
+  setTimeout(() => {
+    $(".dropdown").css("display", "none")
+  }, 700);
+})
       

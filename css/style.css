@@ -81,6 +81,7 @@ header{
     justify-content: space-between;
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 
 .menu-icon span{
@@ -293,6 +294,121 @@ header{
 
 .line1{
     width: 100px;
-    height: 1px;
+    height: 2px;
     background: white;
+}
+
+.dropdown{
+    display: none;
+    position: fixed;
+    width: 480px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #232323;
+    z-index: 99999;
+    text-align: center;
+    padding: 50px 15px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown-menu{
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.logo-area{
+    width: 80%;
+
+}
+
+.logo-area img{
+    height: 100%;
+}
+
+.closeIcon{
+    color: white;
+    width: 10%;
+    height: 100%;
+    font-size: 36px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    -webkit-transition-duration: 750ms;
+    transition-duration: 750ms;
+}
+
+.dropdown-wraper{
+    height: 50%;
+    margin-top: 150px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+    font-weight: 300;
+    padding: 12px 15px;
+}
+
+.nav-item>a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 12px 5px;
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+.nav-item>a::after{
+    content: '';
+    bottom: 0;
+    width: 30px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 5;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.nav-item>a:hover::after{
+    width: 100%;
+}
+
+/* .closeIcon:hover{
+    transform: rotate(270deg);
+    transform-origin: 29% 50%;
+} */
+
+.image1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.hero-text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(245, 245, 245, 0.756);
+    /* padding-top: 360px; */
+    width: 50%;
+    height: 100%;
 }
