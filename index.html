@@ -3,244 +3,123 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title  -->
-    <title>Creative</title>
-
-    <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/favicon.ico">
-
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nos Creare</title>
+    <link rel="icon" href="img/icons/logo-noscreare.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-        <!-- <audio controls>
-                <source src="LadislavKing.mp3" type="audio/mpeg">
-              Your browser does not support the audio element.
-        </audio> -->
+    <header>
+        <div class="logo-holder">
+            <div class="logo">
+                <img src="./img/icons/logo-noscreare.png" alt="">
+            </div>
 
-    <!-- Preloader Start -->
-    <div id="preloader">
-        <div class="preload-content">
-            <div id="sonar-load"></div>
         </div>
-    </div>
-    <!-- Preloader End -->
-
-    <!-- Grids -->
-    <div class="grids d-flex justify-content-between">
-        <div class="grid1"></div>
-        <div class="grid2"></div>
-        <div class="grid3"></div>
-        <div class="grid4"></div>
-        <div class="grid5"></div>
-        <div class="grid6"></div>
-        <div class="grid7"></div>
-        <div class="grid8"></div>
-        <div class="grid9"></div>
-    </div>
-
-    <!-- ***** Main Menu Area Start ***** -->
-    <div class="mainMenu d-flex align-items-center justify-content-between">
-        <!-- Close Icon -->
-        <div class="closeIcon">
-            <i class="ti-close" aria-hidden="true"></i>
-        </div>
-        <!-- Logo Area -->
-        <div class="logo-area">
-            <a href="index.html">Creative Workshops</a>
-        </div>
-        <!-- Nav -->
-        <div class="sonarNav wow fadeInUp" data-wow-delay="1s">
-            <nav>
-                <ul>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about-me.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="elements.html">Elements</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <!-- Copwrite Text -->
-        <div class="copywrite-text">
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</p>
-        </div>
-    </div>
-    <!-- ***** Main Menu Area End ***** -->
-
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <div class="menu-area d-flex justify-content-between">
-                        <!-- Logo Area  -->
-                        <div class="logo-area">
-                            <a href="index.html">Creative Workshops
-                            </a>
-                        </div>
-
-                        <div class="menu-content-area d-flex align-items-center">
-                            <!-- Header Social Area -->
-                            <div class="header-social-area d-flex align-items-center">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            </div>
-                            <!-- Menu Icon -->
-                            <span class="navbar-toggler-icon" id="menuIcon"></span>
-                        </div>
-                    </div>
+        <div class="menu-holder">
+            <div class="instagram-holder">
+                <a href="https://www.instagram.com/creative.photo.video.workshops/" target="_blank"
+                    data-toggle="tooltip" data-placement="bottom" title="Instagram">
+                    <i class="fab fa-instagram font-inst"></i>
+                </a>
+            </div>
+            <div class="menu-wrap">
+                <div class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
-        </div>
     </header>
-    <!-- ***** Header Area End ***** -->
+    <div class="slider-holder">
+        <div class="slider">
 
-    <!-- ***** Hero Area Start ***** -->
-    <section class="hero-area">
-        <div class="hero-slides owl-carousel">
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/burhan/burhan-glavna.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Burhan Juseinovski</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
+            <div class="slide-background-overlay">
+                <div class="slider-stefan slider-hero-background">
+                    <a class="test" href="stefan.html" target="_blank" rel="noopener noreferrer"></a>
+                    <div class="hero-slides-content">
+                        <div class="line"></div>
+                        <h2>Stefan Selimov</h2>
                     </div>
                 </div>
             </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/berhan/berhan-glavna.jpg);">            
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Berhan Juseinovski</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
+
+            <div class="slide-background-overlay">
+                <div class="slider-burhan slider-hero-background">
+                    <a class="test" href="burhan.html" target="_blank" rel="noopener noreferrer"></a>
+                    <div class="hero-slides-content">
+                        <div class="line"></div>
+                        <h2>Burhan Juseinovski</h2>
                     </div>
                 </div>
             </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/zeka/zeka-glavna.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Zeka Ibraimova</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
+
+            <div class="slide-background-overlay">
+                <div class="slider-berhan slider-hero-background">
+                    <a class="test" href="berhan.html" target="_blank" rel="noopener noreferrer"></a>
+                    <div class="hero-slides-content">
+                        <div class="line"></div>
+                        <h2>Berhan Juseinovski</h2>
                     </div>
                 </div>
             </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bojan/bojan-glavna.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Bojan Stojanovski</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
+
+            <div class="slide-background-overlay">
+                <div class="slider-jusuf slider-hero-background">
+                    <a class="test" href="jusuf.html" target="_blank" rel="noopener noreferrer"></a>
+                    <div class="hero-slides-content">
+                        <div class="line"></div>
+                        <h2>Jusuf Husein</h2>
                     </div>
                 </div>
             </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/jusuf/jusuf-glavna.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Jusuf Husein</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
+
+            <div class="slide-background-overlay">
+                <div class="slider-zeka slider-hero-background">
+                    <a class="test" href="zeka.html" target="_blank" rel="noopener noreferrer"></a>
+                    <div class="hero-slides-content">
+                        <div class="line"></div>
+                        <h2>Zeka Ibraimova</h2>
                     </div>
                 </div>
             </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/usain/usain-glavna.jpg);">            
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Usain Durovski
-                                </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
+
+            <div class="slide-background-overlay">
+                <div class="slider-bojan slider-hero-background">
+                    <a class="test" href="bojan.html" target="_blank" rel="noopener noreferrer"></a>
+                    <div class="hero-slides-content">
+                        <div class="line"></div>
+                        <h2>Bojan Stojanovski</h2>
                     </div>
                 </div>
             </div>
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/stefan/stefan-glavna.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-end">
-                        <div class="col-12">
-                            <div class="hero-slides-content">
-                                <div class="line"></div>
-                                <h2>Stefan Selimov</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor facilisis, volutpat nulla placerat, tincidunt mi. Nullam vel orci dui. Suspendisse sit amet laoreet neque. Fusce sagittis suscipit sem.</p>
-                            </div>
-                        </div>
+
+            <div class="slide-background-overlay">
+                <div class="slider-usain slider-hero-background">
+                    <a class="test" href="usain.html" target="_blank" rel="noopener noreferrer"></a>
+                    <div class="hero-slides-content">
+                        <div class="line"></div>
+                        <h2>Usain Durovski</h2>
                     </div>
+
                 </div>
             </div>
+
         </div>
-    </section>
-    <audio src="LadislavKing.mp3" autoplay style="display:none" volume="60"></audio>  
-    <!-- ***** Footer Area End ***** -->
-
-    <!-- jQuery (Necessary for All JavaScript Plugins) -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Plugins js -->
-    <script src="js/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
-   
-
+    </div>
+    <script src="jquery/jQuery.js"></script>
+    <!-- SlickJs -->
+    <script type="text/javascript" src="jquery/jquery1.11.js"></script>
+    <script type="text/javascript" src="jquery/jquery1.2.1.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/slick.js"></script>
 
 </body>
 
